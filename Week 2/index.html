@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <title>learn jQuery Mobile</title>
+    <style>
+        img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ---------- Start small part: page 1 ---------- -->
+    <div data-role="page" id="page1">
+        <div data-role="header">
+            <h1>Home Page</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <div id="content-1">
+                <h1>This is one page to manage your photo</h1>
+                <p>Where you show your passion</p>
+            </div>
+            <div id="content-2">
+                <ul data-role="listview" data-filter="true" data-filter-placeholder="Type of photo..."
+                    data-inset="true">
+                    <li><a href="#">Landscape photo</a></li>
+                    <li><a href="#">Portrait photo</a></li>
+                    <li><a href="#">Still life photo</a></li>
+                    <li><a href="#">Animal photo</a></li>
+                    <li><a href="#">Abstract photo</a></li>
+                </ul>
+            </div>
+            <div id="content-3">
+                <ul data-role="listview" data-inset="true" data-divider-theme="a">
+                    <li data-role="list-divider">Mail</li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Gmail</a></li>
+                    <li><a href="#">Phone</a></li>
+                    <li data-role="list-divider">Contacts</li>
+                    <li><a href="#">Father</a></li>
+                    <li><a href="#">Mother</a></li>
+                    <li><a href="#">Sister</a></li>
+                    <li><a href="#">Brother</a></li>
+                    <li><a href="#">Girl Friends</a></li>
+                </ul>
+            </div>
+            <p><a href="#page2">Next</a></p>
+        </div>
+
+        <div data-role="footer">
+            <h1>Website design by Toxic Snow.</h1>
+        </div>
+    </div>
+    <!-- ========== End small part: page 1 ========== -->
+
+
+    <!-- ---------- Start small part: page 2 ---------- -->
+    <div data-role="page" id="page2">
+        <div data-role="header" data-add-back-btn="true">
+            <h1>Description</h1>
+        </div>
+
+        <div data-role="content">
+            <div class="xam">
+                <div class="containerl-fluid text-center">
+                    <div class="row">
+
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <h2>What am I</h2>
+                            <p>This is a photo of one of the most famous bridges in Da Nang and also a symbol of this
+                                coastal city - Han River Bridge
+                            </p>
+                            <button>Search more information</button>
+                            <img src="K0B_7853_FB.jpg" alt="Han Bridge" width="2048" height="1357">
+                        </div>
+
+                    </div> <!-- end row -->
+                </div> <!-- end class container -->
+            </div> <!-- end div xam -->
+            <p>
+                <a href="#page3">Next</a>
+            </p>
+        </div>
+        <div data-role="footer">
+            <h4>Website design by Toxic Snow.</h4>.
+        </div>
+        <!-- /footer -->
+    </div><!-- /page -->
+    <!-- ========== End small part: page 2 ========== -->
+
+
+    <!-- ---------- Start small part: page 3 ---------- -->
+    <div data-role="page" id="page3">
+        <div data-role="header" data-add-back-btn="true">
+            <h1>More</h1>
+        </div>
+        <!-- /header -->
+        <div data-role="content">
+            <div class="where">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2>Where to find me</h2>
+                        </div>
+
+                    </div> <!-- end row -->
+                    <div class="row">
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
+                            <img src="birds1.jpg" alt="" width="350"    height="300">
+                        </div> <!-- end col -->
+
+
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
+                            <img src="birds2.jpg" alt="" width="350"    height="300">
+                        </div> <!-- end col -->
+
+
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
+                            <img src="birds3.jpg" alt="" width="350"    height="300">
+                        </div> <!-- end col -->
+                    </div> <!-- end row -->
+                </div> <!-- end class container -->
+            </div> <!-- end class where -->
+            <p>
+                <a href="#page2">Back</a>
+            </p>
+            <a href="#page1" class="ui-btn" data-rel="back">Go to Home Page</a>
+            
+
+        </div><!-- /content -->
+        <div data-role="footer">
+            <h4>Website design by Toxic Snow.</h4>
+        </div>
+        <!-- /footer -->
+    </div><!-- /page -->
+    <!-- ========== End small part: page 3 ========== -->
+
+</body>
+
+</html>

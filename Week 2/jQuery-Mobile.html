@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <title>learn jQuery Mobile</title>
+    <style>
+        img{
+            width: 95%;
+        }
+    </style>
+</head>
+<body>
+                                                <!--Page-1-->
+
+    <div data-role="page" id="page1">
+        <div data-role="header">
+            <h1>Page 1</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p><a href="#page2">Page 2</a></p>
+            <div id="content-1">
+                <p>I Am Now A Mobile Developer!! I'm very handsome boy. But i can't find my love.</p>
+                <p>Because i'm a pỏor man. </p>
+            </div>
+            <div id="content-2">
+                <ul data-role="listview" data-filter="true" data-filter-placeholder="Search fruits..." data-inset="true">
+                    <li><a href="#">Vinsmart</a></li>
+                    <li><a href="#">Apple</a></li>
+                    <li><a href="#">Samsung</a></li>
+                    <li><a href="#">Huawei</a></li>
+                    <li><a href="#">Blackberry</a></li>
+                    <li><a href="#">Google</a></li>
+                </ul>
+            </div>
+            <div id="content-3">
+                <ul data-role="listview" data-inset="true" data-divider-theme="a">
+                    <li data-role="list-divider">Mail</li>
+                    <li><a href="#">Gmail</a></li>
+                    <li><a href="#">Outlock</a></li>
+                    <li data-role="list-divider">Contacts</li>
+                    <li><a href="#">Friends</a></li>
+                    <li><a href="#">Family</a></li>
+                    <li><a href="#">Girls</a></li>
+                    <li><a href="#">Girls2</a></li>
+                    <li><a href="#">Girls3</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div data-role="footer">
+            <h1>Footer Text</h1>
+        </div>
+    </div>
+
+                                                    <!--Page 2-->
+    <div data-role="page" id="page2">
+        <div data-role="header" data-add-back-btn="true" >
+            <h1>Page 2</h1>
+        </div>
+        <!-- /header -->
+        <div data-role="content">
+            <p>Link point
+                <a href="#page3">Page 3</a>
+            </p>
+            <p>
+                私の趣味はジョギングです。体を動かすこと自体が好きなので、ストレス発散になっています。
+                走る距離は少なくとも2km。学生時代から走りはじめ、社会人になった今でも毎朝欠かさずにジョギングしています
+            </p>
+            <p>3
+                実は取り組みはじめた当初は新鮮味があって楽しかったのですが、しばらくして社会人となり、生活リズムが変わってからは早朝に起きるのが辛い時期がありました
+                。ただ、環境が変わったからといって、一度やると決めたことを簡単に投げ出してはよくないと自分に言い聞かせたのです。
+            </p>
+                結果、根気強く取り組んだことで、環境に体が慣れていき、今もまた走ることに楽しさを感じられています。
+            </p>
+            <p>
+            <img src="https://i.pinimg.com/originals/0b/e2/1e/0be21ee8a18af49432e7bf42c532ef9a.jpg" alt="image erorr" >
+            </p>
+        </div><!-- /content -->
+        <div data-role="footer">
+            <h4>Page Footer</h4>.
+        </div>
+        <!-- /footer -->
+    </div><!-- /page -->
+                                                    <!--Page3-->
+
+    <div data-role="page" id="page3">
+        <div data-role="header" data-add-back-btn="true" >
+            <h1>Page 3</h1>
+        </div>
+        <!-- /header -->
+        <div data-role="content">
+            <a href="#page2" class="ui-btn" data-rel="back">Go Back</a>
+            <p>Test Test Code Code Example Exmple</p>
+            <p>
+                私の趣味はジョギングです。体を動かすこと自体が好きなので、ストレス発散になっています。
+                走る距離は少なくとも2km。学生時代から走りはじめ、社会人になった今でも毎朝欠かさずにジョギングしています
+            </p>
+            <p>3
+                実は取り組みはじめた当初は新鮮味があって楽しかったのですが、しばらくして社会人となり、生活リズムが変わってからは早朝に起きるのが辛い時期がありました
+                。ただ、環境が変わったからといって、一度やると決めたことを簡単に投げ出してはよくないと自分に言い聞かせたのです。
+            </p>
+            結果、根気強く取り組んだことで、環境に体が慣れていき、今もまた走ることに楽しさを感じられています。
+            </p>
+            <p>Test Test Code Code Example Exmple</p>
+            <p>Go to
+                <a href="#page1">Page 1</a>
+            </p>
+            <img src="https://anhnendep.net/wp-content/uploads/2015/07/hinh-nhat-ban-co-kinh-japan-dep-3.jpg" alt="image erorr">
+        </div><!-- /content -->
+        <div data-role="footer">
+            <h4>Page Footer</h4>
+        </div>
+        <!-- /footer -->
+    </div><!-- /page -->
+</body>
+</html>
